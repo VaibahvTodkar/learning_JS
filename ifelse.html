@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If else</title>
+</head>
+
+<body>
+
+
+    <script>
+        var pin = 1234
+        if (pin == "1234") {
+            document.write("Login Success");
+        } else {
+            document.write("Login Failed");
+        }
+    </script>
+    <br>
+    <script>
+        var a = 30;
+        if(a < 35){
+            document.write("Smaller");
+        }else{
+            document.write("Bigger");
+        }
+    </script>
+    <br>
+    <script>
+        var per =50;
+        if(per >= 80 && per <= 100){
+            document.write("Destinction")
+        }else if(per >= 60 && per < 80){
+            document.write("First Class");
+        }else if(per >= 35 && per < 60){
+            document.write("Second Class")
+        }else{
+            document.write("Fail");
+        }
+    </script>
+    <br>
+    <script>
+        // var m= 20;
+        if(m ==1 || m == 3 || m ==5 || m == 7 || m ==8 || m == 10 || m ==12 ){
+            document.write("31");
+        }else if( m == 4 || m == 6 || m == 9  || m == 11){
+            document.write("30");
+        }else if (m == 2){
+            document.write("29");
+        }else{
+            document.write("Month value is between 1 and 12");
+        }
+    </script>
+    <script>
+        var age = prompt("Enter age : ");
+        var continue_var = confirm("Give me accress");
+        if(age  < 30){
+            document.write("Child Age");
+        }else if (age >= 30 && age < 45){
+            document.write("Young Age")
+        } if(age >= 45 && age < 60){
+            document.write("Old Age")
+        }if(age >60 && age < 100){
+            document.write("Senier citizen");
+        }
+        document.write("<br>");
+        document.write(continue_var);
+    </script>
+</body>
+
+</html>
